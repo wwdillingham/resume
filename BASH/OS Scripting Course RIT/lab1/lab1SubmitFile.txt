@@ -1,0 +1,72 @@
+#!/bin/bash
+#Dillingham OS Scripting
+#lab 1 task 1
+
+head -n5 /etc/passwd
+
+# End of Script
+
+#Questions for Task1:
+#$1 = Username
+#$2 = Password
+#$3 = UID
+#$4 = Group ID
+#$5 = User ID Info
+#$6 = Home Directory
+#$7 = Command/shell (path of shell)
+
+
+
+
+
+#!/bin/bash
+#Dillingham OS Scripting 20083
+#Lab 1 Task 2
+
+cd /tmp
+echo "Welcome $USER to $PWD"
+ls
+
+#End of Script
+
+
+#The Current Directory is the directory the shell was in before the script was run - e.g. not /tmp
+#!/bin/bash
+#Dillingham - OS Scripting 20083 
+#Lab 1 Task 3
+
+
+cat /etc/group | cut -d: -f1
+
+
+#End of Script Lab1 Task 3
+#!/bin/bash
+#Dillingham OS Scripting 20083
+#Lab1 Task 4
+#sort alphabetically on field 3
+
+sort -t':' -n -k3 /etc/group
+
+#End of script
+
+
+#***Task 5 Answers*****
+
+# -To Terminate the process in the foreground I used ctrl+c
+
+# - To Run my script in the background I used sh task5.sh&
+
+#	- It was annoying .unusual that the echo statements continued to be
+#	  directed toward stdout despite its bg status.
+
+# - To bring the process back to the foregorund I used the command "jobs" once
+# I acquired the Job number (1) I issued the command fg 1 and then ctrl+c to
+# terminate.
+
+# - Ran the script in the background using sh task5.sh&, I brought it to the
+# foreground with fg 1 where 1 is the job number. To put it back the in
+# background I first Suspended the process using ctrl+z, I then used bg 1 to
+# put it in the background. To kill a process directly from the background I
+# issued the command kill %1 where 1 is the job number of the script.
+
+

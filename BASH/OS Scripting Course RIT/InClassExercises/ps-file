@@ -1,0 +1,99 @@
+  PID TTY          TIME CMD
+    1 ?        00:00:02 init
+    2 ?        00:00:00 migration/0
+    3 ?        00:00:00 ksoftirqd/0
+    4 ?        00:00:00 watchdog/0
+    5 ?        00:00:04 migration/1
+    6 ?        00:00:00 ksoftirqd/1
+    7 ?        00:00:00 watchdog/1
+    8 ?        00:00:00 events/0
+    9 ?        00:00:00 events/1
+   10 ?        00:00:00 khelper
+   11 ?        00:00:00 kthread
+   15 ?        00:00:00 kblockd/0
+   16 ?        00:00:00 kblockd/1
+   17 ?        00:00:00 kacpid
+  121 ?        00:00:00 cqueue/0
+  122 ?        00:00:00 cqueue/1
+  125 ?        00:00:00 khubd
+  127 ?        00:00:00 kseriod
+  193 ?        00:00:00 pdflush
+  194 ?        00:00:00 pdflush
+  195 ?        00:00:00 kswapd0
+  196 ?        00:00:00 aio/0
+  197 ?        00:00:00 aio/1
+  356 ?        00:00:00 kpsmoused
+  385 ?        00:00:00 ata/0
+  386 ?        00:00:00 ata/1
+  387 ?        00:00:00 ata_aux
+  391 ?        00:00:00 scsi_eh_0
+  392 ?        00:00:00 scsi_eh_1
+  393 ?        00:00:00 scsi_eh_2
+  394 ?        00:00:00 scsi_eh_3
+  401 ?        00:00:00 scsi_eh_4
+  402 ?        00:00:00 scsi_eh_5
+  403 ?        00:00:00 scsi_eh_6
+  404 ?        00:00:00 scsi_eh_7
+  417 ?        00:00:00 ksnapd
+  418 ?        00:00:03 kjournald
+  449 ?        00:00:00 kauditd
+  481 ?        00:00:00 udevd
+ 1657 ?        00:00:00 kmpathd/0
+ 1658 ?        00:00:00 kmpathd/1
+ 1715 ?        00:00:00 kjournald
+ 1717 ?        00:00:00 kjournald
+ 1719 ?        00:00:00 kjournald
+ 1721 ?        00:00:11 kjournald
+ 2235 ?        00:00:01 restorecond
+ 2248 ?        00:00:04 auditd
+ 2250 ?        00:00:01 audispd
+ 2267 ?        00:00:10 syslogd
+ 2270 ?        00:00:00 klogd
+ 2301 ?        00:00:03 mcstransd
+ 2316 ?        00:00:39 setroubleshootd
+ 2381 ?        00:00:00 rpc.idmapd
+ 2404 ?        00:00:00 dbus-daemon
+ 2447 ?        00:00:00 pcscd
+ 2482 ?        00:00:00 hidd
+ 2501 ?        00:00:00 automount
+ 2523 ?        00:00:00 acpid
+ 2539 ?        00:00:04 sshd
+ 2562 ?        00:00:00 sendmail
+ 2571 ?        00:00:00 sendmail
+ 2585 ?        00:00:00 gpm
+ 2598 ?        00:00:00 crond
+ 2625 ?        00:00:00 xfs
+ 2663 ?        00:00:00 atd
+ 2677 ?        00:00:00 libvirtd
+ 2696 ?        00:00:00 rhnsd
+ 2709 ?        00:00:00 hald
+ 2710 ?        00:00:00 hald-runner
+ 2757 ?        00:00:00 hald-addon-acpi
+ 2783 ?        00:00:00 dnsmasq
+ 2788 ?        00:00:00 hald-addon-keyb
+ 2798 ?        00:00:31 hald-addon-stor
+ 2863 ?        00:00:00 smartd
+ 2868 tty1     00:00:00 mingetty
+ 2869 tty2     00:00:00 mingetty
+ 2870 tty3     00:00:00 mingetty
+ 2871 tty4     00:00:00 mingetty
+ 2874 tty5     00:00:00 mingetty
+ 2878 tty6     00:00:00 mingetty
+19737 ?        00:00:00 sshd
+19739 ?        00:00:00 sshd
+19740 pts/1    00:00:00 bash
+19783 pts/1    00:00:00 vim
+19785 ?        00:00:00 sshd
+19788 ?        00:00:00 sshd
+19789 pts/3    00:00:00 bash
+19813 ?        00:00:00 sshd
+19815 ?        00:00:00 sshd
+19816 pts/4    00:00:00 bash
+19839 pts/4    00:00:00 vim
+19872 ?        00:00:00 sshd
+19874 ?        00:00:00 sshd
+19875 pts/2    00:00:00 bash
+19924 ?        00:00:00 sshd
+19926 ?        00:00:00 sshd
+19927 pts/5    00:00:00 bash
+20083 pts/5    00:00:00 ps

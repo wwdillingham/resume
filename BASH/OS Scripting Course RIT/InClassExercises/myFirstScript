@@ -1,0 +1,4 @@
+#!/bin/bash
+#This is my first script (not really)
+echo "My search path is: $PATH"
+echo "My Home directory is: $HOME"

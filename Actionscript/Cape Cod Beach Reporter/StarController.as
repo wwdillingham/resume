@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.*;	import flash.events.*;		public class StarController extends MovieClip{		public function StarController() {			// constructor code			trace(" Star created");			addEventListener(Event.ENTER_FRAME, doEnterFrame);					}				public function doEnterFrame(e:Event):void{					}	}	}

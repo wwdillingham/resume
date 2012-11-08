@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "value 1: $1"
+echo "value 2: $2"
+echo "value 3: $3"
+
+
+((Total= $1 + $2 + $3))
+echo $Total
+echo "sum of the three is $Total"
+
+
+echo "percentage of variable 1 is: (($1 * 100 / $Total ))"

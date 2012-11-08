@@ -1,0 +1,2 @@
+defaults write /tmp/streamconfig "Data Rate" -int 2500000
+defaults write /tmp/streamconfig "Multicast Address" 224.5.5.5

@@ -1,0 +1,79 @@
+#!/bin/bash
+#Wes Dillingham
+if [ $# -eq 1 ]
+	then
+		((AVG= $1))
+		echo "average of ( $1 ) is $AVG"
+	exit
+elif [ $# -eq 2 ]
+	then
+		((SUM= $1 + $2 ))
+		((REM= $SUM % 2))
+		
+		if [ $REM -eq 0 ]
+			then
+				((AVG= SUM / 2))
+				echo "The Average of ( $1 $2 ) is $AVG"
+			exit
+			else
+				((SUM= $SUM - $REM))
+				((AVG= SUM / 2))
+				echo "The Average of ( $1 $2 ) is $AVG Remainder of $REM"
+		fi
+				
+	exit
+elif [ $# -eq 3 ]
+	then
+		((SUM= $1 + $2 + $3 ))
+		((REM= $SUM % 3))
+		
+		if [ $REM -eq 0 ]
+			then
+				((AVG= SUM / 3))
+				echo "The Average of ( $1 $2 $3 ) is $AVG"
+			exit
+			else
+				((SUM= $SUM - $REM))
+				((AVG= SUM / 3))
+				echo "The Average of ( $1 $2 $3 ) is $AVG Remainder of $REM"
+		fi
+				
+	exit
+elif [ $# -eq 4 ]
+	then
+		((SUM= $1 + $2 + $3 + $4 ))
+		((REM= $SUM % 4))
+		
+		if [ $REM -eq 0 ]
+			then
+				((AVG= SUM / 4))
+				echo "The Average of ( $1 $2 $3 $4 ) is $AVG"
+			exit
+			else
+				((SUM= $SUM - $REM))
+				((AVG= SUM / 4))
+				echo "The Average of ( $1 $2 $3 $4 ) is $AVG Remainder of $REM"
+		fi
+	exit
+elif [ $# -eq 5 ]
+	then
+		((SUM= $1 + $2 + $3 + $4 + $5 ))
+		((REM= $SUM % 5))
+		
+		if [ $REM -eq 0 ]
+			then
+				((AVG= SUM / 5))
+				echo "The Average of ( $1 $2 $3 $4 $5 ) is $AVG"
+			exit
+			else
+				((SUM= $SUM - $REM))
+				((AVG= SUM / 5))
+				echo "The Average of ( $1 $2 $3 $4 $5 ) is $AVG Remainder of $REM"
+		fi
+				
+	exit
+else
+		echo "Wrong Number of Parameters"
+	
+fi
+

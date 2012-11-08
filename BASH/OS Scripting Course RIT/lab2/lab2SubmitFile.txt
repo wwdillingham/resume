@@ -1,0 +1,57 @@
+#!/bin/bash
+#Dillingham
+#Task1
+
+
+cp $0 /tmp/$0.$USER
+chmod 700 /tmp/$0.$USER
+ls -l /tmp/$0.$USER
+date
+who
+#!/bin/bash
+#Wesley Dillingham
+#Spring 20083
+
+
+ls -l -S /etc/*.conf
+#!/bin/bash
+#Wes Dillingham
+# Os Scripting 20083 lab2 task3
+
+A=`ls /etc/rc?.d`
+
+for d in $A
+do
+	if [[ -d $d ]]
+	then
+		echo $d
+	fi
+done
+#!/bin/bash
+#Wesley Dillingham
+#OS Scripting 20083 Lab2 - Task4
+
+sh task1.sh
+sh task2.sh
+
+
+#!/bin/bash
+#Wesley Dillingham
+#OS Scripting 20083 Lab2 - task5
+
+
+NUMPS=`ps aux | wc -l`
+
+if [[ $# -eq 0 ]]
+then
+	echo "No Params - Will Use Hardcoded Param of 75"
+	set 75
+fi
+
+
+echo "The Number of processes is $NUMPS and the Param is $1"
+
+if [[ $NUMPS -gt $1 ]]
+then
+	echo "Error Number of processes greater than the first param"
+fi

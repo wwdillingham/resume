@@ -1,0 +1,13 @@
+####Task3###########
+
+#sh loop.sh& 2>/dev/null
+
+#only "hey $user, i am still running" shows
+
+#sh loop.sh > /dev/null
+
+# All output goes to stdout
+
+# no output to stdout
+
+
